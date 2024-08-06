@@ -1,0 +1,41 @@
+@font-face {
+  font-family: FigTree;
+  src: url(/assets/fonts/Figtree-VariableFont_wght.ttf);
+  font-family: FigTree-Italic;
+  src: url(/assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+}
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  font-family: FigTree, Arial, Helvetica, sans-serif;
+}
+
+.body-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  padding: 24px;
+  gap: 24px;
+  border: 2px solid hsl(0, 0%, 7%);
+  box-shadow: 10px 5px 0px hsl(0, 0%, 7%);
+}
+
+.blog-image img {
+  width: 250px;
+}
+
+.card-avater img {
+  width: 100px;
+  height: 100px;
+}
