@@ -14,7 +14,7 @@ body {
 .card-container {
   width: 350px;
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: center;
   flex-direction: column;
   background-color: hsl(0, 0%, 100%);
@@ -22,16 +22,20 @@ body {
   padding: 24px;
   gap: 24px;
   border: 2px solid hsl(0, 0%, 7%);
-  box-shadow: 10px 5px 0px hsl(0, 0%, 7%);
+  box-shadow: 10px 10px 0px hsl(0, 0%, 7%);
+}
+.card-container:hover {
+  cursor: pointer;
 }
 
 .blog-image img {
   border-radius: 10px;
+  width: 350px;
 }
 
-.card-avater img {
-  width: 100px;
-  height: 100px;
+.card-avatar img {
+  width: 32px;
+  height: 32px;
 }
 
 .tag-button {
@@ -64,10 +68,24 @@ body {
   color: hsl(0, 0%, 42%);
 }
 
-.blog-text {
+.blog-details {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: start;
   gap: 12px;
+}
+
+.card-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.card-avatar-text {
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-weight: bold;
 }
